@@ -1,2 +1,4 @@
 # sockcek
-tools is free
+
+
+just for fun
