@@ -104,7 +104,7 @@ def main():
            print(bnr)
            ip = input('[?] ip : ')
            sokcek(ip)
-    except Exception as err:exit('error')
+    except Exception as err:print(err)
     except KeyboardInterrupt:exit('\nkeluar')
 
 
