@@ -9,7 +9,7 @@ from os import system as cmd
 import sys
 
 try:
-    import bs4
+    import bs4 import BeautifulSoup as Bs
     import requests as r
 except:
        cmd('pip install bs4')
