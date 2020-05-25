@@ -1,12 +1,20 @@
 #!/usr/bin/python3
 
 # module
-import requests as r
-from bs4 import BeautifulSoup as Bs
+
+
 from time import sleep
 import re
 from os import system as cmd
 import sys
+
+try:
+    import bs4
+    import requests as r
+except:
+       cmd('pip install bs4')
+       cmd('pip install requests')
+
 
 class sokcek():
       def __init__(self,inputIp):
